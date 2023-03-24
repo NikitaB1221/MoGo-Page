@@ -1,3 +1,13 @@
+@font-face {
+	font-family: SrbijaSans;
+	src: url('../fonts/SrbijaSans.otf');
+}
+
+@font-face {
+	font-family: BeauRivage;
+	src: url('../fonts/BeauRivage.ttf');
+}
+
 html,
 body {
     height: 100%;
@@ -24,6 +34,7 @@ header {
     vertical-align: top;
     margin-left: 20%;
     margin-top: 1%;
+    font-family: SrbijaSans;
     font-size: 20px;
     font-weight: bold;
 }
@@ -38,6 +49,8 @@ header {
     margin-top: 1.5%;
     justify-content: space-between;
     font-size: 10px;
+    font-weight: 600;
+    font-family: SrbijaSans;
 }
 
 .FWHead div{
@@ -56,11 +69,13 @@ header {
 .FWMidHead div:nth-child(1), .FWMidHead div:nth-child(2) {
     color: white;
     display: inline-block;
+    font-family: SrbijaSans;
     vertical-align: top;
 }
 
 .FWMidHead div:nth-child(1) {
-    font-size: 20px;
+    font-size: 30px;
+    font-family: BeauRivage;
 }
 
 .FWMidHead div:nth-child(2) {
@@ -80,8 +95,25 @@ header {
     color: white;
     height: 20px;
     width: 100px;
+    font-family: SrbijaSans;
+    font-size: 15px;
+    font-weight: 600;
     text-align: center;
+    padding-top: 0.4%;
+    padding-left: 0.4%;
+    padding-right: 0.4%;
     border: 2px solid white;
+}
+
+.fSecTopImages{
+    filter:invert(1);
+    overflow: hidden;
+}
+
+.fSecTopImages img{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
 }
 
 .FWMoversHead {
@@ -139,6 +171,7 @@ header {
 }
 .headReceptacle div span:nth-child(1){
     font-size: 52px;
+    font-family: SrbijaSans;
 }
 
 .headReceptacle div:nth-child(5) {

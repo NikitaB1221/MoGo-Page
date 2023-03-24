@@ -9,11 +9,13 @@
 }
 
 .FWFourthSection div:nth-child(1){
-    font-size: 20;
+    font-size: 25px;
+    font-family: 'BeauRivage';
 }
 
 .FWFourthSection div:nth-child(2){
     font-size: 40;
+    font-family: SrbijaSans;
 }
 
 .FWFourthSection div:nth-child(3){
@@ -28,6 +30,7 @@
 
 .FWFourthSection div:nth-child(4){
     font-size: 10;
+    font-family: SrbijaSans;
 }
 
 .fhSecGrid{

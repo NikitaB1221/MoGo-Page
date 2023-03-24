@@ -9,11 +9,13 @@
 }
 
 .FWThirdSection div:nth-child(1){
-    font-size: 20;
+    font-size: 25px;
+    font-family: 'BeauRivage';
 }
 
 .FWThirdSection div:nth-child(2){
     font-size: 40;
+    font-family: SrbijaSans;
 }
 
 .tSecSeparator1{
@@ -28,6 +30,7 @@
 
 .FWThirdSection div:nth-child(4){
     font-size: 10;
+    font-family: SrbijaSans;
 }
 
 .tSecIcons{
@@ -59,11 +62,14 @@
 }
 
 .tSecText{
-    font-size: 20px;
+    font-size: 15px;
+    font-family: SrbijaSans;
 }
 
 .tSecTextFoot{
     font-size: 10px;
+    font-family: SrbijaSans;
+    color: gray;
 }
 
 .imgN1{
