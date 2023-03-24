@@ -1,0 +1,127 @@
+.FWThirdSection{
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.FWThirdSection div:nth-child(1){
+    font-size: 20;
+}
+
+.FWThirdSection div:nth-child(2){
+    font-size: 40;
+}
+
+.tSecSeparator1{
+    background-color: tomato;
+    display: inline-block;
+    vertical-align: top;
+    width: 4%;
+    height: 4%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.FWThirdSection div:nth-child(4){
+    font-size: 10;
+}
+
+.tSecIcons{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 400%;
+    margin-top: 30px;
+}
+
+.tSecIcons div{
+    display: flex;
+    vertical-align: top;
+    height: 100%;
+    width: 33%;
+    font-size: 10px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tSecImgs {
+    width: 70%;
+    height: 100%;
+    align-self: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 8px;
+}
+
+.tSecText{
+    font-size: 20px;
+}
+
+.tSecTextFoot{
+    font-size: 10px;
+}
+
+.imgN1{
+    background-image: url(../Images/ManLooksAtYou.jpg);
+}
+
+.imgN2{
+    background-image: url(../Images/Photograph.png);
+}
+
+.imgN3{
+    background-image: url(../Images/Woodcutter.png);
+}
+
+.tSecFoot{
+    background-color: #f8f8f8;
+    display: flex;
+    vertical-align: top;
+    height: 250%;
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tSecFoot section{
+    height: 80%;
+    width: 10%;
+    margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.tSecFoot section:nth-child(5){
+    background-image: url(../icons/Hipster.png);
+}
+
+.tSecFoot section:nth-child(3){
+    background-image: url(../icons/Arrows.png);
+}
+
+.tSecFoot section:nth-child(4){
+    background-image: url(../icons/DQ1980.png);
+}
+
+.tSecFoot section:nth-child(2){
+    background-image: url(../icons/Barbershop.png);
+}
+
+.tSecFoot section:nth-child(6){
+    background-image: url(../icons/HB3.png);
+}
+
+.tSecFoot section:nth-child(7){
+    background-image: url(../icons/Studio.png);
+}
+
+.tSecFoot span{
+    width: 10%;
+}

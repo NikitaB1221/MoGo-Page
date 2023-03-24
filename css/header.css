@@ -1,0 +1,146 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+header {
+    background:linear-gradient(rgba(243, 125, 140, 0.9) 10%, rgba(240, 240, 80, 0.9) 150%), url(./icons/eagle.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    position: relative;
+}
+
+.headerFlex {
+    display: flex;
+}
+
+.Logo {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+    margin-top: 1%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.FWHead {
+    color: white;
+    display: flex;
+    height: 10%;
+    width: 30%;
+    margin-left: 25%;
+    margin-right: 10%;
+    margin-top: 1.5%;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.FWHead div{
+    overflow: hidden;
+}
+
+.FWMidHead {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+
+}
+
+.FWMidHead div:nth-child(1), .FWMidHead div:nth-child(2) {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.FWMidHead div:nth-child(1) {
+    font-size: 20px;
+}
+
+.FWMidHead div:nth-child(2) {
+    text-align: center;
+    font-size: 60px;
+}
+
+.FWMidHead div:nth-child(3) {
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    height: 2px;
+    width: 5%;
+}
+
+.FWMidHead div:nth-child(4) {
+    color: white;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.FWMoversHead {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    bottom: 3%;
+}
+
+.FWMoversHead div:nth-child(1),
+.FWMoversHead div:nth-child(6) {
+    width: 19%;
+}
+
+.FWMoversHead div:nth-child(2),
+.FWMoversHead div:nth-child(3),
+.FWMoversHead div:nth-child(4),
+.FWMoversHead div:nth-child(5) {
+    background-color: blue;
+    vertical-align: top;
+    display: inline-block;
+    width: 14%;
+    height: 20px;
+}
+
+.subHead {
+    background-color: rgb(149, 225, 212);
+    height: 15%;
+    max-height: 200px;
+}
+
+.headReceptacle {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 60%;
+    height: 100%;
+    margin: 0% 0% 0% 20%;
+    text-align: center;
+}
+
+.headReceptacle div {
+    display: flex;
+    color: white;
+    border-left: 1px solid rgb(182, 233, 224);
+    height: 100%;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headReceptacle div span:nth-child(2){
+    font-size: 10px;
+}
+.headReceptacle div span:nth-child(1){
+    font-size: 52px;
+}
+
+.headReceptacle div:nth-child(5) {
+    border-right: 1px solid rgb(182, 233, 224);
+}
