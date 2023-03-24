@@ -19,7 +19,7 @@
 }
 
 .FWSecondSection div:nth-child(3){
-    background-color: tomato;
+    background-color: var(--separatorColor);
     display: inline-block;
     vertical-align: top;
     width: 4%;
@@ -60,7 +60,7 @@ justify-content: center;
 }
 
 .stolenSeparator{
-    background-color: tomato;
+    background-color: var(--separatorColor);
     display: inline-block;
     vertical-align: middle;
     width: 4%;

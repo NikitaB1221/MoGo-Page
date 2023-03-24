@@ -19,7 +19,7 @@
 }
 
 .FWFourthSection div:nth-child(3){
-    background-color: tomato;
+    background-color: var(--separatorColor);
     display: inline-block;
     vertical-align: top;
     width: 4%;
@@ -41,6 +41,25 @@
     margin-top: 50px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
+}
+
+.fhSecGrid span:hover {
+    transform: translate(0px, -5px);
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.fhSecGrid span:hover::before {
+    text-align: center;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../icons/Camera.png),  linear-gradient(to bottom right, var(--fromColor), var(--toColor));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
 }
 
 .fhSecGrid span{
@@ -93,4 +112,80 @@
     vertical-align: top;
     height: 250px;
     width: 100%;
+}
+
+.fhSecFoot {
+    display: flex;
+    background: url(../images/MountianBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.fhSecFoot:hover{
+    filter: brightness(0.9);
+    transition: 1s;
+}
+
+.fhSecFootIcon{
+    display: inline-block;
+    vertical-align: auto;
+    width: 40px;
+    height: 40px;
+    background-image: url(../icons/Place.png);
+    background-size: contain;
+    filter: contrast(50%) sepia(100%) hue-rotate(310deg) brightness(2) saturate(1000%);
+    z-index: 2;
+}
+
+.fhSecFootIcon:hover{
+    transition: 1s;
+    transform: translateY(-10px);
+}
+
+.fhSecFootText{
+    color: var(--colorSeparators);
+    font-size: 20;
+    font-weight: bold;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-family: SrbijaSans;
+}
+
+.fhSecFootText:hover{
+    transition: 1s;
+    transform: translateY(-10px);
+}
+
+.fhSecFootLine{
+    background-color: var(--separatorColor);
+    display: inline-block;
+    vertical-align: auto;
+    width: 4%;
+    height: 4px;
+}
+
+.fhSecFootLine:hover{
+    transition: 1s;
+    transform: translateY(-10px);
+}
+
+.fhSecFootIcon:hover::after {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.fhSecFootIcon:hover {
+    transform: translate(0px, -10px);
+    transition: 0.5s;
+    z-index: 0;
 }

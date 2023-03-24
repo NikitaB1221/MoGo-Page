@@ -17,7 +17,7 @@
 }
 
 .fSeparator1{
- background-color: tomato;
+ background-color: var(--separatorColor);
  display: inline-block;
  vertical-align: top;
  width: 4%;
