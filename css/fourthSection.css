@@ -51,37 +51,37 @@
 
 .fhSecGrid span:nth-child(1) {
     grid-area: 1 / 1 / 2 / 2;
-    background-image: url(../Images/RockBeach.png);
+    background-image: url(../images/RockBeach.png);
 }
 
 .fhSecGrid span:nth-child(2) {
     grid-area: 2 / 1 / 3 / 2;
-    background-image: url(../Images/Bridge.png);
+    background-image: url(../images/Bridge.png);
 }
 
 .fhSecGrid span:nth-child(3) {
     grid-area: 1 / 2 / 2 / 3;
-    background-image: url(../Images/Roof.png);
+    background-image: url(../images/Roof.png);
 }
 
 .fhSecGrid span:nth-child(4) {
     grid-area: 2 / 2 / 3 / 3;
-    background-image: url(../Images/courtyard.jpg);
+    background-image: url(../images/courtyard.jpg);
 }
 
 .fhSecGrid span:nth-child(5) {
     grid-area: 1 / 3 / 3 / 4;
-    background-image: url(../Images/Jellyfish.png)
+    background-image: url(../images/Jellyfish.png)
 }
 
 .fhSecGrid span:nth-child(6) {
     grid-area: 1 / 4 / 2 / 5;
-    background-image: url(../Images/InsideRoof.png)
+    background-image: url(../images/InsideRoof.png)
 }
 
 .fhSecGrid span:nth-child(7) {
     grid-area: 2 / 4 / 3 / 5;
-    background-image: url(../Images/OficeHouse.png);
+    background-image: url(../images/OficeHouse.png);
 }
 
 .FWFourthSection div:nth-child(6){
